@@ -1,8 +1,9 @@
 {
   "name": "part1",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "engines": {
+    "node": "^18.14"
+  },
   "scripts": {
     "tsc": "tsc",
     "start:dev": "ts-node arrayOperations.ts",
