@@ -20,7 +20,7 @@ npm i
 
 ## Running `Part 2` in `DEV` mode
 
-1. **Launching `index.ts` without building. Run the following command:**
+1. **Launching `processData.ts` without building. Run the following command:**
 
    ```bash
    npm run start:dev
@@ -35,7 +35,7 @@ npm i
    npm run build
     ```
 
-2. **Launching already built `index.js`. Run the following command:**
+2. **Launching already built `processData.js`. Run the following command:**
 
     ```bash
     npm run start:prod

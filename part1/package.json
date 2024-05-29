@@ -5,7 +5,7 @@
     "node": "^18.14"
   },
   "scripts": {
-    "tsc": "tsc",
+    "build": "tsc",
     "start:dev": "ts-node arrayOperations.ts",
     "start:prod": "node dist/arrayOperations.js"
   },

@@ -1,5 +1,5 @@
 function arrayOperations(arr:number[]): number[] {
-    // ** Modern, but slow method **
+    // ** Modern syntax, but slow method **
     // return arr
     //     .filter((n:number) => n >= 0)
     //     .map((n:number) => n * 2)
