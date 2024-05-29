@@ -1,0 +1,17 @@
+{
+  "name": "part2",
+  "version": "1.0.0",
+  "engines": {
+    "node": "^18.14"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start:dev": "ts-node index.ts",
+    "start:prod": "node dist/index.js"
+  },
+  "private": true,
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
