@@ -1,12 +1,12 @@
 ## Question/Answer of `Part 6`
 
-* Why `document.addEventListener("DOMContentLoaded", ...)` is used instead of placing the script at the bottom of the `HTML` file?
-* How the project would handle adding complex elements (e.g., nested lists) to the list?
+# Why `document.addEventListener("DOMContentLoaded", ...)` is used instead of placing the script at the bottom of the `HTML` file?
 
 ## `document.addEventListener("DOMContentLoaded", ...)` is used  because:
 * Using document.addEventListener("DOMContentLoaded", ...) ensures that the DOM is fully loaded and parsed before any JavaScript code attempts to interact with it. This approach has a few benefits:
 
 
+# How the project would handle adding complex elements (e.g., nested lists) to the list?
 ## nested lists will be implemented:
 * We should modify `app.ts`
 

@@ -1,6 +1,6 @@
 ## Question/Answer of `Part 8`
 
-Why the `isbn` is private and `availableCopies` is protected?
+# Why the `isbn` is private and `availableCopies` is protected?
 
 ## `isbn` is private  because:
 * Ensures ISBN cannot be altered after creation, maintaining data integrity.
