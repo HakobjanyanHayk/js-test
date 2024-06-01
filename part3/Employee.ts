@@ -5,10 +5,6 @@ class Employee extends Person {
 
     constructor(name: string, age: number, jobTitle: string) {
         super(name, age);
-        // Calling the constructor of the parent class
-        // this.name = name;
-        // this.age = age;
-
         this.jobTitle = jobTitle;
     }
 
