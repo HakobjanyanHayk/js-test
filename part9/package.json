@@ -1,13 +1,13 @@
 {
-  "name": "part2",
+  "name": "part9",
   "version": "1.0.0",
   "engines": {
     "node": "^18.14"
   },
   "scripts": {
     "build": "tsc",
-    "start:dev": "ts-node processData.ts",
-    "start:prod": "node dist/processData.js"
+    "start:dev": "ts-node DataFetcher.ts",
+    "start:prod": "node dist/DataFetcher.js"
   },
   "private": true,
   "devDependencies": {
